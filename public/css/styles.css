@@ -1,0 +1,43 @@
+.input-group {
+    margin: 1rem 0;
+}
+
+.questions {
+    margin: 1rem 0;
+}
+
+.clicked {
+    background-color: #158CBA;
+    color: white;
+    padding: 0.1rem
+}
+
+.card-link {
+    padding: 0.3rem;
+    border-radius: 0.25rem;
+}
+
+.card-links {
+    text-align: center;
+}
+
+.form-control {
+    margin-left: 1rem;
+}
+
+.input-group-prepend {
+    border-bottom-right-radius: 0.25rem!important;
+}
+
+.navbar {
+    margin-bottom: 2rem
+}
+
+.row {
+    margin-bottom: 6rem
+}
+
+footer {
+    text-align: center;
+
+}

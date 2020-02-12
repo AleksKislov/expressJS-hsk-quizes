@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>HSK Quizes</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="#">HSK Quiz</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarColor03">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">{{title}}</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">Выберите Уровень</h6>
+                        <p class="card-text">HSK - экзамен на уровень владения китайским языком.</p>
+                        <div class="card-links">
+                            <a href="/hsk1" class="card-link {{card1}}">HSK1</a>
+                            <a href="/hsk2" class="card-link {{card2}}">HSK2</a>
+                            <a href="/hsk3" class="card-link {{card3}}">HSK3</a></br>
+                            <a href="/hsk4" class="card-link {{card4}}">HSK4</a>
+                            <a href="/hsk5" class="card-link {{card5}}">HSK5</a>
+                            <a href="/hsk6" class="card-link {{card6}}">HSK6</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-sm-9">
+                <h3>Выберите подходящий вариант для...</h3>
+
+                <div id="translation" class="questions">
+                    <h5>... иероглифов</h5>
+
+                    <div class="input-group">
+                        <div class="">
+                            <div class="input-group-text">@</div>
+                        </div>
+
+                        <select class="form-control">
+                            <option>Выберите правильный вариант</option>
+                        </select>
+                        
+                    </div>
+
+                    <div class="input-group">
+                            <div class="">
+                                <div class="input-group-text">@</div>
+                            </div>
+    
+                            <select class="form-control">
+                                <option>Выберите правильный вариант</option>
+                            </select>
+                            
+                    </div>
+
+                    <div class="input-group">
+                        <div class="">
+                            <div class="input-group-text">@</div>
+                        </div>
+
+                        <select class="form-control">
+                            <option>Выберите правильный вариант</option>
+                        </select>
+                            
+                    </div>
+
+                    <div class="input-group">
+                        <div class="">
+                            <div class="input-group-text">@</div>
+                        </div>
+
+                        <select class="form-control">
+                            <option>Выберите правильный вариант</option>
+                        </select>
+                        
+                    </div>
+                    
+                    <div class="input-group">
+                        <div class="">
+                            <div class="input-group-text">@</div>
+                        </div>
+
+                        <select class="form-control">
+                            <option>Выберите правильный вариант</option>
+                        </select>
+                        
+                    </div>
+
+                    <button type="button" class="btn btn-primary btn-sm" id="translationButton">Обновить</button>
+                    <button type="button" class="btn btn-primary btn-sm" id="translationCheck">Проверить</button>
+
+                </div>
+
+                <hr>
+
+                <div id="pinyin" class="questions">
+                        <h5>... пиньиня</h5>
+
+                        <div class="input-group">
+                            <div class="">
+                                <div class="input-group-text">@</div>
+                            </div>
+    
+                            <select class="form-control">
+                                <option>Выберите правильный вариант</option>
+                            </select>
+                            
+                        </div>
+    
+                        <div class="input-group">
+                                <div class="">
+                                    <div class="input-group-text">@</div>
+                                </div>
+        
+                                <select class="form-control">
+                                    <option>Выберите правильный вариант</option>
+                                </select>
+                                
+                        </div>
+    
+                        <div class="input-group">
+                            <div class="">
+                                <div class="input-group-text">@</div>
+                            </div>
+    
+                            <select class="form-control">
+                                <option>Выберите правильный вариант</option>
+                            </select>
+                                
+                        </div>
+    
+                        <div class="input-group">
+                            <div class="">
+                                <div class="input-group-text">@</div>
+                            </div>
+    
+                            <select class="form-control">
+                                <option>Выберите правильный вариант</option>
+                            </select>
+                            
+                        </div>
+                        
+                        <div class="input-group">
+                            <div class="">
+                                <div class="input-group-text">@</div>
+                            </div>
+    
+                            <select class="form-control">
+                                <option>Выберите правильный вариант</option>
+                            </select>
+                            
+                        </div>
+
+                        <button type="button" class="btn btn-primary btn-sm" id="pinyinButton">Обновить</button>
+                        <button type="button" class="btn btn-primary btn-sm" id="pinyinCheck">Проверить</button>
+
+                </div>
+
+                <hr>
+
+                <div id="audio" class="questions">
+                        <h5>... аудио</h5>
+
+                        <div class="input-group">
+                            <div class="">
+                                <button class="btn btn-secondary"><i class="fas fa-play"></i></button>
+                            </div>
+    
+                            <select class="form-control">
+                                <option>Выберите правильный вариант</option>
+                            </select>
+                            
+                        </div>
+    
+                        <div class="input-group">
+                                <div class="">
+                                    <button class="btn btn-secondary"><i class="fas fa-play"></i></button>
+                                </div>
+        
+                                <select class="form-control">
+                                    <option>Выберите правильный вариант</option>
+                                </select>
+                                
+                        </div>
+    
+                        <div class="input-group">
+                            <div class="">
+                                <button class="btn btn-secondary"><i class="fas fa-play"></i></button>
+                            </div>
+    
+                            <select class="form-control">
+                                <option>Выберите правильный вариант</option>
+                            </select>
+                                
+                        </div>
+    
+                        <div class="input-group">
+                            <div class="">
+                                <button class="btn btn-secondary"><i class="fas fa-play"></i></button>
+                            </div>
+    
+                            <select class="form-control">
+                                <option>Выберите правильный вариант</option>
+                            </select>
+                            
+                        </div>
+                        
+                        <div class="input-group">
+                            <div class="">
+                                <button class="btn btn-secondary"><i class="fas fa-play"></i></button>
+                            </div>
+    
+                            <select class="form-control">
+                                <option>Выберите правильный вариант</option>
+                            </select>
+                            
+                        </div>
+
+                        <button type="button" class="btn btn-primary btn-sm" id="audioButton">Обновить</button>
+                        <button type="button" class="btn btn-primary btn-sm" id="audioCheck">Проверить</button>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>Created by KissLove for <a href="http://chineseplus.ru/reading">ChinesePlus.ru</a></p>
+
+    </footer>
+
+    <script src="js/{{title}}.js"></script>
+    <script src="js/mvc.js"></script>
+
+</body>
+
+</html>
